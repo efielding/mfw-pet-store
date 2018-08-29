@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
+
+
+:root{
+  --main-font-color: #FF8278;
+  --header-ff: 'satisfy', script;
+}
+
+header.col-md-12{
+  padding: 0 50px;
+}
+
+.logo-img{
+  width: 90px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.nav > li {
+  font-family: 'open sans';
+  font-size: 20px;
+}
+
+a:hover{
+  color: var(--main-font-color)
+}
+
+h1{
+  font-family: var(--header-ff);
+  color: var(--main-font-color);
+}
+
+.jumbotron{
+  background-image: url('../img/hero.jpg');
+  background-position: center;
+  height: 450px;
+  background-size: cover;
+  border-radius: 0 !important;
+}
+
+.hero-tag{
+  color: #fff;
+  font-family: 'open sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
