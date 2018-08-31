@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
 
-
 :root{
   --main-font-color: #FF8278;
   --header-ff: 'satisfy', script;
+  --sub-head-ff: 'Open Sans', sans-serif;
 }
 
 header.col-md-12{
@@ -20,12 +20,12 @@ header.col-md-12{
 }
 
 .nav > li {
-  font-family: 'open sans';
+  font-family: var(--sub-head-ff);
   font-size: 20px;
 }
 
 a:hover{
-  color: var(--main-font-color)
+  color: var(--main-font-color);
 }
 
 h1{
@@ -33,17 +33,63 @@ h1{
   color: var(--main-font-color);
 }
 
+/* end of header */
+
 .jumbotron{
   background-image: url('../img/hero.jpg');
   background-position: center;
-  height: 450px;
+  height: 480px;
   background-size: cover;
   border-radius: 0 !important;
 }
 
 .hero-tag{
   color: #fff;
-  font-family: 'open sans', sans-serif;
+  font-family: var(--sub-head-ff);
   font-weight: 300;
   letter-spacing: 2px;
+}
+
+/* end jumbotron */
+
+.well{
+  padding: 10px;
+}
+
+h4{
+  font-family: var(--sub-head-ff);
+}
+
+/* end main */
+
+
+.footer{
+  background: #000;
+  height: 200px;
+  padding: 10px;
+}
+
+.footer-logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 150px;
+}
+
+.footer-contact{
+  border-left: 2px solid #fff;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.footer-social{
+  border-left: 2px solid #fff;
+  margin-top: 15px;
+}
+.fa{
+  /* color: #fff; */
+}
+
+.copyright{
+  font-size: 10px;
+  background: #000;
 }

@@ -9,22 +9,22 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<div class="container-fluid">
+	<section class="container-fluid">
 		<div class="row">
-		<header class="col-md-12"><!-- header start -->
+		<header class="col-md-12 col-sm-12 col-xs-12"><!-- header start -->
 			<div class="logo">
-				<img class="pull-left logo-img" src="img/petstore_logo.png" alt="Pet store logo">
+				<img class="pull-left img-responsive logo-img" src="img/petstore_logo.png" alt="Pet store logo">
 				<h1 class="pull-left">Pet Store</h1>
 			</div>
 			<nav class="navbar pull-right">
 				<ul class="nav nav-pills">
-					<li role="presentation" class="active"><a href="#">Home</a></li>
-					<li role="presentation"><a href="#">Products</a></li>
-					<li role="presentation"><a href="#">Contact Us</a></li>
+					<li role="presentation" class="active"><a href="#" target="_blank">Home</a></li>
+					<li role="presentation"><a href="#" target="_blank">Products</a></li>
+					<li role="presentation"><a href="#" target="_blank">Contact Us</a></li>
 				</ul>
 			</nav>
-			</header> <!-- header end -->
-		</div>
+		</header> <!-- header end -->
+	</section>
 
 		<div class="row">
 			<div class="jumbotron text-center">
@@ -33,10 +33,74 @@
 		</div>
 
 
-		<div class="row">
+		<main class="row"> <!--main body starts-->
+			<div class="col-md-7 col-sm-12 col-xs-12">
+				<h2 class="col-md-12 col-sm-3 col-xs-12 text-uppercase">featured</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eveniet eligendi ducimus qui, explicabo omnis atque ipsam quisquam ut perspiciatis aspernatur obcaecati praesentium perferendis officiis facere culpa maiores voluptatum facilis.</p>
+				<div class="col-md-4">
+					<div class="well"></div>
+						<img src="img/product1.jpg" alt="dog bowl" class="dog-bowl img-responsive">
+						<h3><b>Dog bowl</b></h3>
+						<caption>The best dog bowl for your pup.</caption>
+						<button class=" btn btn-info" role="button">Purchase Now</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="well">
+						<img src="img/product2.jpg" alt="cat bowl" class="cat-bowl img-responsive">
+						<h4><b>Cat Toy</b></h4>
+						<caption>The best cat toy for your cat.</caption>
+						<button class="btn-info" role="button">Purchase Now</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="well">
+						<img src="img/product3.jpg" alt="parrot toy" class="parrot-toy img-responsive">
+						<h4><b>Parrot toy</b></h4>
+						<caption>The best parrot bowl for your parrot.</caption>
+						<button class="btn-info" role="button">Purchase Now</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 offset"></div>
+			<div class="col-md-2 col-sm-3 col-xs-12">
+				<h2 class="text-center text-capitalize">services</h2>
+					<h3 class="text-center text-capitalize text-info">adopt dog</h3>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, minima.</p>
+					<h3 class="text-center text-capitalize text-info">adopt cat</h3>
+						<p class="text-center">Autem itaque, suscipit ratione nisi. Laudantium numquam ab reiciendis, labore!</p>
+					<h3 class="text-center text-capitalize text-info">adopt parrot</h3>
+						<p class="text-center">Minus quibusdam ad obcaecati ducimus quidem voluptatibus officia accusantium ipsam.</p>
+			</div>
+			<div class="col-med-1 offset"></div>
+		</main> <!--main body ends-->
 
-		</div>
-		<div class="row"></div>
+		<footer class="row footer"> <!--footer starts-->
+			<div class="col-med-3 col-sm-3 col-xs-12">
+				<img src="img/petstore_logo.png" alt="pet store logo" class="footer-logo img-responsive align-right">
+			</div>
+
+			<address class="col-med-3 col-sm-3 col-xs-12 footer-contact">
+				<p>Pet Store<br>Fresno, CA<br><a href="mailto:info@petstore.com">info@petstore.com</a>
+			</address>
+
+			<ul class="col-md-2 col-sm-3 col-xs-12 footer-social">
+				<li class="list-group-item"><a href="#" target="_blank"><span class="fa fa-twitter">Twitter</span></a></li>
+				<li class="list-group-item"><a href="#" target="_blank"><span class="fa fa-facebook-f">Facebook</span></a></li>
+				<li class="list-group-item"><a href="#" target="_blank"><span class="fa fa-linkedin-in">Linkedin</span></a></li>
+			</ul>
+
+			<div class="visible-xs s">
+				<ul class="col-md-2 list group footer-social">
+					<li><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></li>
+					<li><a href="#" target="_blank"><span class="fa fa-facebook-f"></span></a></li>
+					<li><a href="#" target="_blank"><span class="fa fa-linkedin-in"></span></a></li>
+				</ul>
+			</div>
+			<div>
+					<span class="copyright text-align-center">&copy; 2018 Pet Store, Inc. All rights reserved.</span>
+			</div>
+		</footer> <!-- footer ends-->
 
 
 	</div>
