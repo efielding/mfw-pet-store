@@ -54,6 +54,8 @@ h1{
 
 .well{
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 h4{
@@ -65,31 +67,42 @@ h4{
 
 .footer{
   background: #000;
-  height: 200px;
+  height: 150px;
   padding: 10px;
 }
 
 .footer-logo{
   width: 100px;
   height: 100px;
-  margin-left: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-contact{
   border-left: 2px solid #fff;
   margin-top: 15px;
   color: #fff;
+  line-height: 34px;
 }
 
 .footer-social{
   border-left: 2px solid #fff;
   margin-top: 15px;
 }
+
 .fa{
-  /* color: #fff; */
+  color: #fff;
+}
+
+.list-group-item{
+  background-color: #000 !important;
+  border: none !important;
 }
 
 .copyright{
-  font-size: 10px;
+  font-size: 15px;
   background: #000;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
 }
