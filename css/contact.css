@@ -1,0 +1,42 @@
+.contact-pg{
+  display: flex;
+  flex-direction: row;
+}
+
+section.col{
+  display: flex;
+  flex-direction: column;
+}
+.drjoe{
+  display: flex;
+  flex-direction: row;
+  margin-left: 125px;
+}
+
+.joe{
+  margin-left: 50px;
+  /* width: 200px; */
+}
+
+.j-info{
+  heig
+}
+
+.drjane{
+  display: flex;
+  flex-direction: row;
+  margin-left: 125px;
+}
+
+.jane{
+  margin-left: 50px;
+}
+
+map{
+  margin-top: 50px;
+}
+
+.table{
+  margin-left: 50px;
+  margin-top: 100px;
+}
